@@ -59,19 +59,28 @@ header .content {
 }
 
 header .logo {
+    display: flex;
     font-size: 1.5rem;
     margin-left: 2.5rem;
     text-decoration: none;
+    height: 100%;
+    align-items: center;
 }
 
 header nav ul {
     display: flex;
+    align-items: center;
   }
 
   nav li {
     list-style: none;
     margin-left: 5rem;
     margin-right: 2.5rem;
+  }
+
+  header .logo img {
+    height: 170%;
+    margin-top: 15px;
   }
 
   header img {
